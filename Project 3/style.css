@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #e1e1e1;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+#main nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    padding: 50px 20px;
+}
+#main nav .ri-menu-3-line{
+    display: none;
+}
+#main nav #menu{
+    width: fit-content;
+    /* background-color: yellow; */
+    padding: 10px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#main nav #menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+#main nav #menu a:hover{
+    color: #3f3f3f;
+}
+
+#main nav button{
+    padding: 20px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 3px;
+    outline: none;
+    border:none;
+    border-radius: 50px;
+    background-color: black;
+    color: #fff;
+}
+
+#main nav button:hover{
+    background-color: #1b1b1b;
+}
+
+#main #center{
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+    padding: 30px 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#main #center #left{
+    height: 90vh;
+    padding: 30px;
+    width: 50%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+#main #center #left h1{
+    font-family: helvetica;
+    font-size: 5vw;
+    font-weight: 400;
+    line-height: 5vw;
+}
+
+#main #center #left p{
+    font-size: 1vw;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #636363;
+}
+
+#main #center #left #button{
+    height: fit-content;
+    width: 100%;
+    padding: 10px 0px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+    margin-top:20px;
+}
+
+#main #center #left #button #btn1, #main #center #left #button #btn2{
+    padding: 20px 20px;
+    font-size: 0.8vw;
+    font-weight: 500;
+    border-radius: 3px;
+    outline: none;
+    border:none;
+    border-radius: 50px;
+    background-color: black;
+    color: #fff;
+}
+#main #center #left #button #btn2{
+    background-color: #cfcfcf;
+    color:#000;
+    font-weight: 600;
+}
+
+#main #center #left #leftbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-top: 10vh;
+}
+
+#main #center #left #leftbottom #leftbottom1 h1, #main #center #left #leftbottom #leftbottom2 h1{
+    font-size: 4rem;
+    /* background-color: blueviolet; */
+    width: fit-content;
+}
+
+#main #center #left #leftbottom #leftbottom1 p, #main #center #left #leftbottom #leftbottom2 p{
+    font-size: 1.2rem;
+    /* background-color: brown; */
+    width:70%;
+}
+
+#main #center #right{
+    height: 90vh;
+    width: 50%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('img1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#main #center #right #rightbottom{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:10px
+}
+
+#main #center #right #rightbottom #rightbottom1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: fit-content;
+    width: 50%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#main #center #right #rightbottom #rightbottom1 #rigthbottom1_top{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#main #center #right #rightbottom #rightbottom1 #rigthbottom1_bottom{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#main #center #right #rightbottom #rightbottom1 #rigthbottom1_bottom p{
+    font-size: 30px;
+}
+
+#main #center #right #rightbottom #rightbottom1 #rigthbottom1_bottom span{
+    font-size: 15px;
+    background-color: rgb(210, 255, 210);
+    color: green;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+#main #center #right #rightbottom #rightbottom2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#main #center #right #rightbottom #rightbottom2 #rigthbottom1_top{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#main #center #right #rightbottom #rightbottom2 #rigthbottom1_bottom{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#main #center #right #rightbottom #rightbottom2 #rigthbottom1_bottom p{
+    font-size: 30px;
+}
+
+#main #center #right #rightbottom #rightbottom2 #rigthbottom1_bottom span{
+    font-size: 15px;
+    background-color: rgb(255, 210, 210);
+    color: #ff0000;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 1200px){
+    #main #center #right #rightbottom #rightbottom1{
+        width: 100%;
+        /* background-color: #ff0000; */
+    }
+    #main #center #right #rightbottom #rightbottom2{
+        width: 100%;
+        /* background-color: #ff0000; */
+    }
+
+    #main #center #left p{
+        font-size: 0.9rem;
+    }
+    #main #center #left #leftbottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        margin-top: 10vh;
+    }
+    
+    #main #center #left #leftbottom #leftbottom1 h1, #main #center #left #leftbottom #leftbottom2 h1{
+        font-size: 3rem;
+        /* background-color: blueviolet; */
+        width: fit-content;
+    }
+    
+    #main #center #left #leftbottom #leftbottom1 p, #main #center #left #leftbottom #leftbottom2 p{
+        font-size: 0.9rem;
+        /* background-color: brown; */
+        width:70%;
+    }
+    #main #center #left #button #btn1, #main #center #left #button #btn2{
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #main nav #menu{
+        display: none;
+    }
+    #main nav .ri-menu-3-line{
+        display: block;
+        font-size: larger;
+        background-color: rgb(235, 235, 235);
+        padding: 10px;
+        border-radius: 50%;
+    }
+    #main nav button{
+        display: none;
+    }
+    #main #center{
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+    #main #center #left{
+        width: 100%;
+        height: fit-content;
+        /* background-color: green; */
+    }
+    #main #center #left h1{
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 3rem;
+    }
+    #main #center #left p{
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    #main #center #left #button{
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #main #center #left #button #btn1, #main #center #left #button #btn2{
+        width: 100%;
+        font-size: 0.8rem;
+        border-radius: 5px;
+    }
+
+    #main #center #left #leftbottom{
+        width: 100%;
+        flex-direction: column;
+        /* background-color: #e1e1e1;  */
+        gap: 20px;
+        padding:10px 0px 10px 0px;
+        margin-top: 20px;
+    }
+
+    #main #center #left #leftbottom #leftbottom1 h1, #main #center #left #leftbottom #leftbottom2 h1{
+        width: 100%;
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #main #center #left #leftbottom #leftbottom1 p, #main #center #left #leftbottom #leftbottom2 p{
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #main #center #right{
+        width: 100%;
+    }
+    
+    #main #center #right #rightbottom #rightbottom1, #main #center #right #rightbottom #rightbottom2{
+        width: 100%;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.464);
+    }
+}
